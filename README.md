@@ -13,7 +13,7 @@ https://github.com/achuchulev/terraform-provisioners.git
 cd terraform-provisioners/
 ```
 
-### Update the terraform.tfvars file to reflect your setup
+### Create a terraform.tfvars file and reflect your setup there
 
 ```
 ami = "ami-id"
