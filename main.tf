@@ -29,7 +29,10 @@ resource "aws_instance" "atanasc-w1" {
     inline = [
       "sudo chmod +x /tmp/provision/redis.sh",
       "sudo sh /tmp/provision/redis.sh",
-      "which redis"
+      "which redis",
+      "redis-cli",
+      "ping",
+      "exit"
     ]
   }
 }
