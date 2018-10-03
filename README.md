@@ -17,6 +17,8 @@ cd terraform-provisioners/
 ### Create a terraform.tfvars file and reflect your setup there
 
 ```
+aws_access_key = ""
+aws_secret_key = ""
 ami = "ami-id"
 instance_type = "t2.micro"
 subnet_id = "subnet-id"
