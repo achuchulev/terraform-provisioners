@@ -38,6 +38,7 @@ export AWS_SECRET_ACCESS_KEY=
 ### Build/destroy AWS instance
 
 ```
+terraform init
 terraform plan
 terraform apply
 terraform destroy
