@@ -8,8 +8,3 @@ which redis || {
 sudo apt-get update
 sudo apt-get install -y redis
 }
-
-# verify that redis server is working
-redis-cli
-ping
-exit
