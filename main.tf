@@ -16,7 +16,7 @@ resource "aws_instance" "atanasc-w1" {
   }
 
   connection {
-    user        = "ubuntu"
+    user        = "${var.username}"
     private_key = "${file("~/.ssh/id_rsa")}"
   }
 
