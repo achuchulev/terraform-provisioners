@@ -28,9 +28,9 @@ resource "aws_instance" "atanasc-w1" {
   provisioner "remote-exec" {
     inline = [
       "sudo chmod +x /tmp/provision/redis.sh",
-      "sudo sh /tmp/provision/redis.sh",
-      "which redis-server",
-      "redis-cli ping"
+      "sudo sh /tmp/provision/redis.sh", # install redis
+      "which redis-server",              # verify installation
+      "redis-cli ping"                   # verify redis is working
     ]
   }
 }
