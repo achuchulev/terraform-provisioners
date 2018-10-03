@@ -5,6 +5,7 @@
 * git
 * terraform
 * AWS subscription
+* Available SSH keys for your linux user
 
 ### Download the repo and go to the repo directory
 
